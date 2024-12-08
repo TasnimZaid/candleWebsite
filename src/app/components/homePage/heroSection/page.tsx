@@ -3,7 +3,7 @@ import { Play } from 'lucide-react';
 
 const HeroSectio: React.FC = () => {
   return (
-    <div className="relative w-full h-[700px] overflow-hidden">
+    <div className="relative w-full h-[400px] overflow-hidden">
       {/* Video Background */}
       <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
         <source src="/videos/flower.mp4" type="video/mp4" />
