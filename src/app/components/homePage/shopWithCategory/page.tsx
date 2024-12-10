@@ -47,11 +47,12 @@ const ShopByCategory = () => {
         {categories.map((category) => (
           <div key={category.name} className="text-center">
             <div className="relative w-full h-48 sm:h-56 md:h-64">
-              <Image
+            <Image
                 src={category.imageSrc}
                 alt={category.alt}
-                layout="fill"
-                objectFit="contain"
+                width={500} 
+                height={500} 
+                style={{ objectFit: 'contain' }} 
                 className="rounded-md"
               />
             </div>

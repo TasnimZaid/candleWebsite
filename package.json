@@ -15,19 +15,23 @@
     "dotenv": "^16.4.7",
     "knex": "^3.1.0",
     "lucide-react": "^0.467.0",
-    "next": "15.0.3",
+    "next": "^15.0.3",
     "pg": "^8.13.1",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "pg-connection-string": "^2.7.0",
+    "react": "^19.0.0-rc-66855b96-20241106",
+    "react-dom": "^19.0.0-rc-66855b96-20241106",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/knex": "^0.15.2",
+    "@types/node": "^20.17.9",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^18.3.14",
     "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
